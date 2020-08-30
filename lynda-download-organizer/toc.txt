@@ -1,0 +1,17 @@
+01 Introduction	=> 01 Why Node.js matters and why you should care
+02 About Node.js	=> 01 History
+02 About Node.js	=> 02 Installing Node.js
+03 Package Management	=> 01 Installing packages
+03 Package Management	=> 02 Publishing packages
+04 JavaScript Fundamentals	=> 01 Defining prototypes and classes in Node.js
+04 JavaScript Fundamentals	=> 02 Using Babel to transpile from ES6 (ES2015)
+04 JavaScript Fundamentals	=> 03 Asynchronous programming
+05 Building Our First Web API	=> 01 Introducing Express
+05 Building Our First Web API	=> 02 Mimicking ASP.NET Core with Express
+06 Unit Testing	=> 01 Installing Jasmine to test Node.js
+06 Unit Testing	=> 02 Mocking test classes with Jasmine
+07 Continuous Integration	=> 01 Introducing Gulp
+07 Continuous Integration	=> 02 Adding support for async/await in Babel
+07 Continuous Integration	=> 03 Creating a CI pipeline in Visual Studio Team Services
+07 Continuous Integration	=> 04 Deploying our web app to Azure
+08 Conclusion	=> 01 Summary
