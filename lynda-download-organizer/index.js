@@ -32,6 +32,7 @@ function getDestinationFilename(filename){
 }
 
 function organize(filename){
+  filename = filename.replace('?', '');
   moveFile(filename);
   // fs.rename(getSourcePath(filename), getDestinationPath(filename), () => console.log('copied'));
 }
