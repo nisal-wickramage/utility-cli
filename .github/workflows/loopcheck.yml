@@ -1,0 +1,28 @@
+name: 'Loop check'
+
+on:
+  pull_request:
+    branches:  
+    - '**' 
+    types: [ opened, synchronize ]
+
+jobs:
+  loopckeck:
+    name: 'Terraform'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ttenv: [dev,ci,prod]
+        ttmodule: [apigateway, gcc-vpc]
+
+    
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Test
+      run: |
+        echo ${{ matrix.ttenv }} ${{ matrix.ttmodule }}
